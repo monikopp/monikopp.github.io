@@ -106,7 +106,7 @@ a > img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
   height: 100vh;
   row-gap: 30px;
@@ -118,8 +118,8 @@ a > img {
   flex-direction: column;
   justify-content: flex-end;
   align-content: center;
-  margin: auto;
-  width: 500px;
+  /* margin: auto; */
+  width: 50%;
   border: 1px solid rgb(58, 56, 90);
   padding-left: 20px;
   border-radius: 20px;
@@ -136,7 +136,7 @@ a > img {
   justify-content: center;
   padding-top: 30px;
   /* height: 100vh; */
-  justify-content: space-between;
+  justify-content: space-around;
   row-gap: 10px;
 }
 #photo h2 {
@@ -164,14 +164,19 @@ a > img {
   width: max-content;
 }
 .pictures-2 img {
-  max-height: 393px;
+  height: 393px;
 }
-.alls-pictures {
+.all-pictures {
+  /* width:65%; */
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
+#me{
+  width: 280px;
+}
 #dog {
-  width: 250px;
+  width: 240px;
 }
 #photo {
   scroll-behavior: smooth;
